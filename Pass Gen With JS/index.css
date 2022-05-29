@@ -1,0 +1,13 @@
+/*Colocamos un degradado en el fondo de nuestro proyecto usando esta herramienta:
+  https://uigradients.com/*/
+body{
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #c471ed, #12c2e9);
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+    
+}
+
+/*le damos un tamaño al texto que aparecera al generar una contraseña*/
+.badge{
+    font-size: 25px;
+}
